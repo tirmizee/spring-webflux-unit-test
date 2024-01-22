@@ -1,0 +1,8 @@
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/test_db?schema=schema_sit
+    username: usr
+    password: pass
+logging:
+  level:
+    org.springframework.boot.autoconfigure.r2dbc: DEBUG
